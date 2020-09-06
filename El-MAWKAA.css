@@ -1,0 +1,296 @@
+* {
+box-sizing:border-box;
+  }
+  
+  
+  
+  
+  body{
+      padding: 0px;
+      margin:0px;
+      font-family: Lato, sans-serif;
+      font-weight: 300;
+      color: rgb(119, 119, 119);
+  
+  }
+  
+  
+  
+  .header{
+    width: 100%;
+    background-color: aliceblue;
+    margin: 0;
+    overflow: hidden;
+  
+  }
+  .navbar{
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+   padding-top:50;
+    width: 100%;
+    font-size: 1.7vw;
+    overflow: hidden;
+    opacity: 55%;
+    height: 20%;
+  }
+  .headerlist {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+      height: 70%;
+      background-size:cover;
+      max-width: 100%;
+      opacity: 100%;
+  
+  
+  
+    }
+    .headerlist li {
+      float: right;
+      padding-top:1%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      opacity: 100%;
+
+    }
+    
+    .headerlist li a {
+      display: block;
+      color:white ;
+      text-align: center;
+      padding: 16px;
+      padding-right: 0%;
+      
+      text-decoration: none;
+      float:right;
+      opacity: 100%;
+
+    }
+    li a:hover {
+      color:darkorchid;
+      border-radius: 5px;
+    }  
+    .logo{
+        height:110%;
+       padding: 0.90%;
+        float:left;
+        padding-left: 4%;
+    }
+    .section1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(26, 26, 24);
+        align-content:center;
+        text-align: center;
+        background-image:  url('home-bg-white.jpg');
+        height: 800px;
+        margin-bottom: 0px;
+        padding-top: 200px;
+
+  
+    }
+    .buying{
+      font-size: 4.6vw;
+
+    }
+    .offering{
+      font-size: 2vw;
+      
+    }
+    .firstbutt{
+      padding: 1%;
+      margin: 2%;
+      max-width: 500%;
+      background-color:rgb(132, 76, 185) ;
+      color: white;
+        font-size:1.5vw;
+      border-color: rgb(132, 76, 185) ;
+      opacity: 85%;
+      border-radius: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+  
+    }
+  .card1:hover {
+    color :black;
+    opacity: 80%;
+  }
+  .card2:hover {
+    color :black;
+    opacity: 80%;
+  }
+  .card3:hover {
+    color :black;
+    opacity: 80%;
+  }
+  .card:hover {
+    color :black;
+    opacity: 80%;
+  }
+  .div5:hover {
+    color :black;
+    opacity: 80%;
+  }
+  .div:hover {
+    color :black;
+    opacity: 80%;
+  }
+  
+
+ 
+ .card1 {
+  padding-top: 0px;
+  padding-bottom: 40px;
+  top:10px;
+  width: 30%;
+  margin: 15px;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.322);
+  text-align: center;
+  font-family: cairo;
+  position: relative;
+  height: 300px;
+  background-image:url('bricks.jpg') ;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  color: black;
+
+}  
+.card2 {
+  padding-top: 00px;
+  padding-bottom: 40px;
+  top:10px;
+  width: 30%;
+  margin: 15px;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.322);
+  text-align: center;
+  font-family: cairo;
+  position: relative;
+  height: 300px;
+  background-image:url('RMC.jpg') ;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  color: black;
+
+}
+.card3 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  top:10px;
+  width: 30%;
+  margin: 15px;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.322);
+  text-align: center;
+  font-family: cairo;
+  position: relative;
+  height: 300px;
+  background-image:url('steel.jpg') ;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  color: black;
+
+}    
+.card4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 30%;
+  margin: 15px;
+  top: 50px;;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.322);
+  text-align: center;
+  font-family: cairo;
+  position: relative;
+  height: 300px;
+  background-image:url('WoodenFormwork.jpg') ;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  color: black;
+
+}    
+.card5 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 30%;
+  margin: 15px;
+  top: 50px;;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.322);
+  text-align: center;
+  font-family: cairo;
+  position: relative;
+  height: 300px;
+  background-image:url('CementBricks.jpg') ;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  color: black;
+
+
+}    
+.card6 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 30%;
+  margin: 15px;
+  top: 50px;;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.322);
+  text-align: center;
+  font-family: cairo;
+  position: relative;
+  height: 300px;
+  background-image:url('cement.jpg') ;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  color: black;
+
+}    
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #F75435;
+  text-align: center;
+  cursor: pointer;
+  width: 40%;
+  font-size: 18px;
+  font-family: cairo;
+}
+.continer2{
+  padding-top: 200px;
+align-content: center;
+margin-top: 200px ;
+ font-size:6vw ;
+ text-align: center;
+ color: black;
+ font-family: cairo;
+
+}
+.single_about i {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #eee;
+  border-radius: 120px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  color: #935CAE;
+  float: right;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 15px;
+  text-align: center;
+  width: 40px;
+  transition: all 0.3s ease 0s;
+}
+.single_about{
+  float:right;
+}
